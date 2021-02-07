@@ -1,5 +1,22 @@
 .App {
   .App-content {
-    margin: 1rem env(safe-area-inset-right) calc(env(safe-area-inset-bottom) + 1rem) env(safe-area-inset-left);
+    margin: 1rem env(safe-area-inset-right)
+      calc(env(safe-area-inset-bottom) + 1rem) env(safe-area-inset-left);
+  }
+
+  .App-loadError {
+    padding: 0px 15px 20px 15px;
+    text-align: center;
+
+    .App-loadError-icon {
+      border-radius: 50%;
+      border: 8px solid red;
+      color: red;
+      font-size: 30px;
+      font-weight: bold;
+      height: 60px;
+      margin: 0 auto 10px;
+      width: 60px;
+    }
   }
 }
